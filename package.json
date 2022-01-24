@@ -1,0 +1,19 @@
+{
+  "name": "melon-ui-kit",
+  "version": "1.0.0",
+  "description": "UI kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melonui/melon-ui-kit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melonui/melon-ui-kit/issues"
+  },
+  "homepage": "https://github.com/melonui/melon-ui-kit#readme"
+}
