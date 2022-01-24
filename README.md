@@ -1,2 +1,2 @@
-# melon-ui
+# melon-ui-kit
 UI kit
