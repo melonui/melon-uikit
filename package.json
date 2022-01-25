@@ -4,7 +4,8 @@
   "description": "UI kit",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "rm -rf ./dist && npx tsc"
   },
   "repository": {
     "type": "git",
