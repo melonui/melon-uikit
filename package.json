@@ -4,7 +4,7 @@
   "scripts": {
     "test": "test",
     "build": "lerna run --scope @melonui/* --parallel build",
-    "publish": "npm run build && lerna publish"
+    "patch": "npm run build && lerna publish patch"
   },
   "dependencies": {
     "react": "^17.0.2",
