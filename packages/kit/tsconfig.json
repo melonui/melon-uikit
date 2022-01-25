@@ -23,5 +23,5 @@
     "noErrorTruncation": false
   },
   "exclude": ["lib", "dist", "test", "node_mudles"],
-  "include": ["src/**/*", "types/**/*"]
+  "include": ["src/**/*", "types/**/*", "test"]
 }

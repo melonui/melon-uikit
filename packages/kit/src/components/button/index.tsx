@@ -41,6 +41,7 @@ function Button({
       style={{
         ...s.button,
       }}
+      className="button_large"
     >
       {children}
     </button>
