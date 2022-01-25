@@ -7,16 +7,6 @@
     "test": "test",
     "build": "rm -rf ./dist && rm -rf tsconfig.tsbuildinfo && tsc"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/melonui/melon-ui-kit.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/melonui/melon-ui-kit/issues"
-  },
-  "homepage": "https://github.com/melonui/melon-ui-kit#readme",
   "dependencies": {
     "react": "^17.0.2",
     "typescript": "^4.5.5"
