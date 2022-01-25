@@ -34,9 +34,6 @@ function Button({
 }: ButtonProps) {
   const s = styles();
 
-  // test
-  // another test
-
   return (
     <button
       {...rest}
