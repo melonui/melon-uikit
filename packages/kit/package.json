@@ -1,6 +1,6 @@
 {
   "name": "@melonui/kit",
-  "version": "1.0.12",
+  "version": "0.0.1",
   "description": "UI kit",
   "main": "dist/index.js",
   "scripts": {
