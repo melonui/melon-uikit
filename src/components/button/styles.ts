@@ -1,7 +1,6 @@
-import React from "react";
 import useTheme from "../../hooks/use-theme";
 
-const styles: React.CSSProperties = () => {
+const styles = () => {
   const theme = useTheme();
 
   return {

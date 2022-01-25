@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": false,
+    "jsx": "react",
+    "lib": ["dom", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "pretty": true,
+    "removeComments": false,
+    "strict": true,
+    "target": "es2015",
+    "useDefineForClassFields": false,
+    "composite": true,
+    "declarationMap": true,
+    "noErrorTruncation": false,
+    "allowJs": true
+  },
+  "exclude": ["lib", "test", "node_mudles"],
+  "include": ["src/**/*", "types/**/*"]
+}

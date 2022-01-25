@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles";
 
-export type ButtonProps = HTMLButtonElement & {
+export type ButtonProps = {
   /** Render as a block with full width. */
   block?: boolean;
   /** Render as borderless. */
@@ -14,6 +14,8 @@ export type ButtonProps = HTMLButtonElement & {
   large?: boolean;
   /** Decrease font size and padding to small. */
   small?: boolean;
+  children?: string | React.ReactNode;
+  disabled?: boolean;
 };
 
 /** A standard button and or link for common UI interactions. */
