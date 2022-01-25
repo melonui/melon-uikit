@@ -22,6 +22,6 @@
     "composite": true,
     "noErrorTruncation": false
   },
-  "exclude": ["lib", "test", "node_mudles"],
+  "exclude": ["lib", "dist", "test", "node_mudles"],
   "include": ["src/**/*", "types/**/*"]
 }
