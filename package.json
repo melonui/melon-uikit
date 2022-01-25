@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/melonui/melon-ui-kit/issues"
   },
-  "homepage": "https://github.com/melonui/melon-ui-kit#readme"
+  "homepage": "https://github.com/melonui/melon-ui-kit#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "typescript": "^4.5.5"
+  }
 }
