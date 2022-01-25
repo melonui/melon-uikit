@@ -16,6 +16,7 @@ export type ButtonProps = {
   small?: boolean;
   children?: string | React.ReactNode;
   disabled?: boolean;
+  loading?: boolean;
 };
 
 /** A standard button and or link for common UI interactions. */
@@ -28,6 +29,7 @@ function Button({
   inverted,
   large,
   small,
+  loading,
   ...rest
 }: ButtonProps) {
   const s = styles();
