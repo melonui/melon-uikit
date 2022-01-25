@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "lib",
+    "outDir": "dist",
     "rootDir": "src",
     "allowSyntheticDefaultImports": true,
     "declaration": true,
@@ -22,7 +22,8 @@
     "composite": true,
     "declarationMap": true,
     "noErrorTruncation": false,
-    "allowJs": true
+    "allowJs": true,
+    "emitDeclarationOnly": true
   },
   "exclude": ["lib", "test", "node_mudles"],
   "include": ["src/**/*", "types/**/*"]

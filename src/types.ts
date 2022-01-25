@@ -32,7 +32,7 @@ export type Theme = {
     };
     base: Hexcode;
     baseInverse: Hexcode;
-    brand: {
+    brand?: {
       luxury: ColorRange;
       plus: ColorRange;
     };
